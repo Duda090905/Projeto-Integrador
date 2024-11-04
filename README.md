@@ -8,11 +8,7 @@ Participantes:
 
 - Maria Eduarda Trevisan (líder) @Duda09095
 - Sophia Helena Leite @helenalaeth
- elisa-dev
-
 - Maria Elisa Guimarães De Faria @Mariaelisaf
-=======
-- Maria Elisa Guimarães @Mariaelisaf
 
 professor José Matias
 
