@@ -10,4 +10,4 @@ Participantes:
 - Sophia Helena Leite @helenalaeth
 - Maria Elisa Guimarães @Mariaelisaf
 
-professor José Matias
+professor José Matias Lemes Filho
