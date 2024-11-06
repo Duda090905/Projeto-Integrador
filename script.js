@@ -1,3 +1,7 @@
+
+
+
+
 let currentIndex = 0;
 const carousels = document.querySelectorAll('.carousel'); // Seleciona todos os carrosséis
 
