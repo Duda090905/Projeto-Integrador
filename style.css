@@ -92,3 +92,101 @@
 .carousel button:hover {
     background-color: rgba(0, 0, 0, 0.8);  /* Altera a cor do botão ao passar o mouse */
 }
+/* Título Centralizado para Cardápio */
+.title-section {
+    background-color: #b0b0b0; /* Cor de fundo para o título */
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.title-section h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 0;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Barra lateral (Categorias) */
+.sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar li:hover {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+/* Conteúdo principal */
+.main-content {
+    width: 75%;
+    padding: 15px;
+}
+
+/* Título da seção */
+.main-content h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Estilização da grade */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #fff;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
