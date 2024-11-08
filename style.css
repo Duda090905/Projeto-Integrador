@@ -21,11 +21,9 @@ font-family: 'Cinzel', serif;
 #header {
     background-color: #2c3e50; /* Cor escura para o cabeçalho */
     color: #fff; /* Texto claro */
-
     text-align: center;
     padding-top: 50px;
     padding-bottom: 60px;
-
 
 }
 
@@ -33,27 +31,11 @@ font-family: 'Cinzel', serif;
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     letter-spacing: 2px;
-    color: #fff
-=======
+    color: #fff; /* Adicionado o ponto e vírgula aqui */
     padding: 5px;
-    width:100%;
+    width: 100%;
 }
 
-#header h1 {
-    font-family: 'Arial', sans-serif;
-    font-size: 1.0rem;
-    letter-spacing: 2px;
-    text-align: center;
-    
-}
-#header h2 {
-    font-family: 'Arial', sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-    text-align: center;
-
-
-}
 #nav ul {
     display: flex;
     justify-content: center;
@@ -77,10 +59,6 @@ font-family: 'Cinzel', serif;
 #nav a:hover {
     color: #81bff8; /* Cor de destaque no hover */
 }
-
-
-
-
 
 
 
@@ -130,9 +108,10 @@ font-family: 'Cinzel', serif;
 /* Título Centralizado para Cardápio */
 .title-section {
     background-color: #b0b0b0; /* Cor de fundo para o título */
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     margin: 10px 0;
+
 }
 
 .title-section h2 {
@@ -141,12 +120,24 @@ font-family: 'Cinzel', serif;
     margin: 0;
     font-weight: bold;
 }
+
+.title-section h3 {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 0;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
 .title-section h4 {
     font-size: 1.2rem;
     color: #ffffff;
     margin: 0;
     font-weight: bold;
 }
+
+
 
 .container {
     display: flex;
@@ -244,6 +235,8 @@ font-family: 'Cinzel', serif;
 .sn1 {
     display:flex;
     align-items:center;
+    line-height: 1.8;
+    text-align: justify;
 }
 .text-sn1 {
     background-color: #403d3d; /* Cor de fundo para o título */
@@ -260,11 +253,113 @@ font-family: 'Cinzel', serif;
 
 }
 
+.foto-sn {
+
+  
+
+  
+
+ 
+    border-radius: 15px;
+
+  }
+
+  .imagem01 {
+
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+
+
+
+  }
+
+
+
+
 .foto-sn1 img{
   margin-left:20px;
   width: 310px;
   height: auto;
 }
+
+.menu-carousel {
+    position: relative;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f4f4f4; /* Cor de fundo do carrossel */
+    border-radius: 10px;
+    max-width: calc((150px * 5) + (15px * (5 - 1))); /* Exatamente 5 itens com espaçamento */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Oculta itens excedentes */
+}
+
+.menu-items {
+    display: flex;
+    gap: 15px; /* Espaço entre os itens */
+    width: max-content; /* Largura depende do número total de itens */
+    position: relative;
+    transition: transform 0.5s ease-in-out; /* Suaviza o movimento */
+}
+
+.menu-item {
+    flex: 0 0 150px; /* Cada item ocupa 150px */
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu-carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.menu-carousel .prev-menu {
+    left: 15px; /* Botão à esquerda */
+}
+
+.menu-carousel .next-menu {
+    right: 15px; /* Botão à direita */
+}
+
+.menu-carousel button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Cor de hover */
+}
+
+.menu-item a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Herda a cor do elemento pai */
+    font-weight: bold; /* Mantém o texto em negrito */
+}
+
+.menu-item a:hover {
+    color: #f39c12; /* Define uma cor para o hover */
+    text-decoration: none; /* Garante que o sublinhado não apareça no hover */
+}
+
 #rodape {
 
 font-size: 20px;
@@ -273,3 +368,12 @@ padding-top: 500px;
 padding-bottom: 20px;
 
 }
+
+#rodape-sobre-nos {
+
+    font-size: 20px;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 20px;
+    
+    }
