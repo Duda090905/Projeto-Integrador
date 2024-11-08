@@ -148,8 +148,9 @@ font-family: 'Cinzel', serif;
 .sidebar {
     width: 25%;
     background-color: #f4f4f4;
-    padding: 15px;
+    padding:15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    height:200vh;
 }
 
 .sidebar h3 {
@@ -320,30 +321,37 @@ border-radius: 10px;
 
 }
 
-.foto-sn {
+.foto-sn img {
  
     border-radius: 15px;
 
   }
 
-  .imagem01 {
+.imagem01 {
 
-    width: 80%;
+    width: 100%;
     height: 80%;
     object-fit: cover;
 
+  }
 
+.foto-sn1 img{
+  padding:03px;
+  margin:10px;
+  width:315px;
+  height:390px;
+}
 
+.foto-sn2 img{
+    padding:02px;
+    margin:10px;
+    width:315px;
+    height:250px;
   }
 
 
 
 
-.foto-sn1 img{
-  margin-left:20px;
-  width: 310px;
-  height: auto;
-}
 
 .menu-carousel {
     position: relative;
