@@ -31,7 +31,7 @@ font-family: 'Cinzel', serif;
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     letter-spacing: 2px;
-    color: #fff;
+    color: #fff; /* Adicionado o ponto e vírgula aqui */
     padding: 5px;
     width: 100%;
 }
@@ -282,6 +282,84 @@ font-family: 'Cinzel', serif;
   width: 310px;
   height: auto;
 }
+
+.menu-carousel {
+    position: relative;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f4f4f4; /* Cor de fundo do carrossel */
+    border-radius: 10px;
+    max-width: calc((150px * 5) + (15px * (5 - 1))); /* Exatamente 5 itens com espaçamento */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Oculta itens excedentes */
+}
+
+.menu-items {
+    display: flex;
+    gap: 15px; /* Espaço entre os itens */
+    width: max-content; /* Largura depende do número total de itens */
+    position: relative;
+    transition: transform 0.5s ease-in-out; /* Suaviza o movimento */
+}
+
+.menu-item {
+    flex: 0 0 150px; /* Cada item ocupa 150px */
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu-carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.menu-carousel .prev-menu {
+    left: 15px; /* Botão à esquerda */
+}
+
+.menu-carousel .next-menu {
+    right: 15px; /* Botão à direita */
+}
+
+.menu-carousel button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Cor de hover */
+}
+
+.menu-item a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Herda a cor do elemento pai */
+    font-weight: bold; /* Mantém o texto em negrito */
+}
+
+.menu-item a:hover {
+    color: #f39c12; /* Define uma cor para o hover */
+    text-decoration: none; /* Garante que o sublinhado não apareça no hover */
+}
+
 #rodape {
 
 font-size: 20px;
