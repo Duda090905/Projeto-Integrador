@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Master Of Burgers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -42,16 +45,16 @@
     
     <div class="contato-esquerdo-titulo">
     
-            <h2> Entre em contato!! </h2>
-            <hr>
+            <h2> Entre em contato: </h2>
+            <br>
     
     </div>
     
     
-    <input type="text" name="nome" placeholder="Nome:" class="contato-inputs" required>
-    <input type="email" name="email" placeholder="Email:" class="contato-inputs" required>
-    <input type="tel" name="telefone" placeholder="Telefone:" class="contato-inputs" required>
-    <textarea name="Mensagem" placeholder="Mensagem:" class="contato-inputs" required ></textarea>
+    <input type="text" name="nome" placeholder="Nome:" class="contato-inputs" required> <br> <br>
+    <input type="email" name="email" placeholder="Email:" class="contato-inputs" required> <br> <br>
+    <input type="tel" name="telefone" placeholder="Telefone:" class="contato-inputs" required> <br> <br>
+    <textarea name="Mensagem" placeholder="Mensagem:" class="contato-inputs" required ></textarea> <br> <br>
     
     <button type="submit"> Enviar </button>
     
@@ -80,19 +83,26 @@
     
     
     <div class="contato-esquerdo-titulo">
-    
-            <h2> Trabalhe Conosco!! </h2>
-            <hr>
+            <br>
+            <h2> Trabalhe Conosco: </h2>
+            <br>
     
     </div>
     
     
     <input type="text" name="nome" placeholder="Nome:" class="contato-inputs" required>
+    <br>
+    <br>
     <input type="email" name="email" placeholder="Email:" class="contato-inputs" required>
+    <br>
+    <br>
     <input type="tel" name="telefone" placeholder="Telefone:" class="contato-inputs" required>
-
+    <br>
+    <br>
     <label for="unidade">Qual unidade você gostaria de trabalhar?</label>
-    <select id="unidade" name="Unidade" title="Selecione a unidade onde deseja trabalhar">
+    <br>
+    <br>
+    <select id="unidade" name="Unidade" title="Selecione a unidade onde deseja trabalhar" class="contato-inputs" required >
 
         <option value="São Paulo">São Paulo</option>
         <option value="Campinas">Campinas</option>
@@ -103,18 +113,30 @@
         <option value="Santos">Santos</option>
     </select>
 
-<label for="interesse">Área de interesse</label>
-<select id="interesse" name="interesse" title="Selecione a área de interesse">
+
+    <br>
+    <br>
+<label for="interesse" >Área de interesse</label>
+
+<br>
+<br>
+<select id="interesse" name="interesse" title="Selecione a área de interesse" class="contato-inputs" required >
     <option value="Cozinha">Cozinha</option>
-    <option value="Marketing e Redes Sociais">Marketing e Redes Sociais</option>
     <option value="Atendimento ao Cliente">Atendimento ao Cliente</option>
-    <option value="Caixa">Caixa</option>
+    <option value="Caixa" >Caixa</option>
     <option value="Limpeza e Organização">Limpeza e Organização</option>
     <option value="Estoque e Suprimentos">Estoque e Suprimentos</option>
+    <option value="Marketing e Redes Sociais">Marketing e Redes Sociais</option>
     <option value="Gerência/Coordenação">Gerência/Coordenação</option>
 </select>
 
+
+<br>
+<br>
+
     <textarea name="Mensagem" placeholder="Mensagem:" class="contato-inputs" required ></textarea>
+    <br>
+    <br>
     
     <button type="submit"> Enviar </button>
     
@@ -139,7 +161,9 @@
 
 
 </div>
-    
 
+<div id="rodape">
+    <footer> MASTER OF BURGERS <br> Todos os direitos reservados</footer>
+</div>
 </body>
 </html>
