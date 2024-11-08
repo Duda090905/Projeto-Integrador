@@ -225,9 +225,76 @@ font-family: 'Cinzel', serif;
 }
 
 
+
+
+.contato-conteiner{
+
+display: flex;
+align-items: center;
+justify-content: center;
+height: 60vh;
+
+
+
+}
+
+form{
+
+font-family: 'Playfair Display';
+flex-direction: column;
+margin-bottom: 60px;
+}
+
+form input, form textarea {
+
+outline: unset;
+padding: 10px;
+min-width: 600px;
+border: 1px solid #d7d8d8;
+border-radius: 15px;
+
+}
+
+
+form input:focus, form textarea:focus {
+
+background-color: rgb(234, 245, 248);
+
+}
+
+button {
+
+background-color:#2c3e50 ;
+color: white;
+cursor: pointer;
+width: 600px;
+padding: 10px;
+border-radius: 15px;
+outline: unset;
+font-family: "Playfair Display";
+font-size: 25px;
+border: unset;
+
+
+}
+
+
+
+
+select {
+
+border: 1px solid #d7d8d8;
+border-radius: 10px;
+
+
+}
+
+
+
+
 .contato-inputs{
 
-    font-family: 'Gill Sans';
+    font-family: 'Playfair Display';
     font-size: 20px;
     color:#6d6c6c
 
@@ -254,11 +321,6 @@ font-family: 'Cinzel', serif;
 }
 
 .foto-sn {
-
-  
-
-  
-
  
     border-radius: 15px;
 
