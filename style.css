@@ -115,6 +115,7 @@ font-family: 'Cinzel', serif;
 }
 
 
+
 /*icone hamburguer*/
 
 .imgburger1 {
@@ -136,6 +137,31 @@ font-family: 'Cinzel', serif;
     padding-bottom:50px;
     margin-top: -55px;
 }
+
+
+.imgburger3 {
+    padding:15px;
+    height: 100px;
+    width: auto;
+    float: right;
+    margin-right: 118px;
+    padding-bottom:50px;
+    position:relative;
+    bottom: 751px;
+}
+
+
+.imgburger4 {
+    padding:15px;
+    height: 100px;
+    width: auto;
+    float: right;
+    margin-right: 118px;
+    padding-bottom:50px;
+    position:relative;
+    bottom: 751px;
+}
+
 
 
 
