@@ -57,7 +57,7 @@ font-family: 'Cinzel', serif;
 }
 
 #nav a:hover {
-    color: #81bff8; /* Cor de destaque no hover */
+    color: #539eac; /* Cor de destaque no hover */
 }
 
 
@@ -107,16 +107,40 @@ font-family: 'Cinzel', serif;
 }
 /* Título Centralizado para Cardápio */
 .title-section {
-    background-color: #b0b0b0; /* Cor de fundo para o título */
+  /* Cor de fundo para o título */
     padding: 40px;
     text-align: center;
     margin: 10px 0;
 
 }
 
+.imgburger1 {
+    padding:15px;
+    height: 100px;
+    width: auto;
+    float: right;
+    margin-right: 760px;
+    padding-bottom:50px;
+    margin-top: -55px;
+}
+
+.imgburger2 {
+    padding:15px;
+    height: 100px;
+    width: auto;
+    float: right;
+    margin-right: 118px;
+    padding-bottom:50px;
+    margin-top: -55px;
+}
+
+
+
+
+
 .title-section h2 {
     font-size: 2rem;
-    color: #ffffff;
+    color: #000000;
     margin: 0;
     font-weight: bold;
 }
@@ -176,7 +200,7 @@ font-family: 'Cinzel', serif;
 }
 
 .sidebar li:hover {
-    background-color: #f39c12;
+    background-color: #539eac;
     color: #fff;
 }
 
@@ -228,6 +252,11 @@ font-family: 'Cinzel', serif;
 
 
 
+
+
+/* PÁGINA DE CONTATO */
+
+
 .contato-conteiner{
 
 display: flex;
@@ -257,24 +286,33 @@ border-radius: 15px;
 }
 
 
-form input:focus, form textarea:focus {
+form input:focus, form textarea:focus {     /*quando clica no input*/
 
-background-color: rgb(234, 245, 248);
+background-color: rgb(242, 250, 252);
 
 }
 
-button {
+.formsbutton {
 
-background-color:#2c3e50 ;
+background-color:#2c3e50;
 color: white;
 cursor: pointer;
-width: 600px;
+width: 200px;
 padding: 10px;
-border-radius: 15px;
+border-radius: 25px;
 outline: unset;
 font-family: "Playfair Display";
 font-size: 25px;
 border: unset;
+margin-left: 400px;
+
+
+
+}
+
+.formsbutton:hover{
+
+background-color: #3e6080;
 
 
 }
@@ -282,10 +320,13 @@ border: unset;
 
 
 
-select {
+select  {
 
 border: 1px solid #d7d8d8;
-border-radius: 10px;
+border-radius: 12px;
+padding: 7px;
+outline: unset;
+cursor: pointer;
 
 
 }
@@ -300,6 +341,15 @@ border-radius: 10px;
     color:#6d6c6c
 
 }
+
+
+
+
+
+/*PÁGINA SOBRE NÓS*/
+
+
+
 .sn1 {
     display:flex;
     align-items:center;
@@ -338,8 +388,8 @@ border-radius: 10px;
 .foto-sn1 img{
   padding:03px;
   margin:10px;
-  width:315px;
-  height:390px;
+  width:auto;
+  height:370px;
 }
 
 .foto-sn2 img{
@@ -350,7 +400,7 @@ border-radius: 10px;
   }
 
 
-
+/*Carrossel Página Inicial*/
 
 
 .menu-carousel {
@@ -386,7 +436,7 @@ border-radius: 10px;
 }
 
 .menu-item p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cinzel', sans-serif;
     font-size: 1rem;
     margin-top: 20px;
     color: #333;
