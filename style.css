@@ -106,12 +106,13 @@ font-family: 'Cinzel', serif;
     background-color: rgba(0, 0, 0, 0.8);  /* Altera a cor do botão ao passar o mouse */
 }
 /* Título Centralizado para Cardápio */
+
 .title-section {
-  /* Cor de fundo para o título */
+
     padding: 40px;
     text-align: center;
-    margin: 10px 0;
-
+    position: relative;
+    
 }
 
 
@@ -140,30 +141,29 @@ font-family: 'Cinzel', serif;
 
 
 .imgburger3 {
+    margin:0;
     padding:15px;
     height: 100px;
     width: auto;
     float: right;
-    margin-right: 118px;
+    margin-right: 755px;
     padding-bottom:50px;
-    position:relative;
-    bottom: 751px;
-}
+    margin-top: -55px;
 
+} 
 
 .imgburger4 {
+    margin:0;
     padding:15px;
     height: 100px;
     width: auto;
     float: right;
-    margin-right: 118px;
+    margin-right: 128px;
     padding-bottom:50px;
-    position:relative;
-    bottom: 751px;
+    padding-left: 60px;
+    margin-top: -55px;
+    margin-left: 60px;
 }
-
-
-
 
 
 
@@ -175,11 +175,10 @@ font-family: 'Cinzel', serif;
 }
 
 .title-section h3 {
-    font-size: 1.2rem;
+
+    font-size: 1.1rem;
     color: #4b4b4b;
-    margin: 0;
-    font-weight: bold;
-    padding-top: 10px;
+
 }
 
 
@@ -378,6 +377,18 @@ cursor: pointer;
 /*PÁGINA SOBRE NÓS*/
 
 
+.historia{
+
+align-items: center;
+display: inline-block;
+font-weight: bold;
+margin-left: 850px;
+padding: 0%;
+position: relative;
+bottom: 40px;
+}
+
+
 
 
 .section1{
@@ -407,7 +418,8 @@ padding:0;
     align-items:center;
     margin: 10px 0;
     font-family: 'Playfair Display';
-    font-size: 22px;
+    font-size: 23px;
+    font-weight: 800px;
     text-align: justify;
     line-height: 42px;
 }
@@ -416,10 +428,10 @@ padding:0;
 
     align-items:center;
     font-family: 'Playfair Display';
-    font-size: 22px;
+    font-size: 23px;
     text-align: justify;
     line-height: 42px;
-    margin-left: 20px;
+    margin-left: 60px;
     width: 50%;
     padding-top: 30px;
 
@@ -437,13 +449,15 @@ padding:0;
 
 .foto-sn2 img {
     margin-top: 40px;
-    margin-right: 150px;
+    margin-right: 50px;
     border-radius: 10px;
-    width: 700px;
+    width: 780px;
+    display: flex;
     margin-left: 20px;
     float:right;
 
 }
+
 
 
 /*Carrossel Página Inicial*/
