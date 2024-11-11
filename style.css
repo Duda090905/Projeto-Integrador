@@ -64,21 +64,27 @@ font-family: 'Cinzel', serif;
 
 .carousel {
     position: relative;
-    max-width: 600px;
-    margin: 20px auto;
-    overflow: hidden;
+    width: 100%; /* Garante largura total */
+    max-width: 100%; /* Remove limites de largura */
+    margin: 0 auto; /* Centraliza o carrossel */
+    overflow: hidden; /* Oculta qualquer conteúdo excedente */
+    height: 110vh; /* Define altura proporcional à tela */
 }
+
 
 .carousel-images {
     display: flex;
     transition: transform 0.5s ease;
     width: 100%;
 }
-
 .carousel-images img {
-    min-width: 100%;
-    transition: opacity 0.5s ease;
+    width: 100%; /* Faz a imagem preencher a largura */
+    height: 100%; /* Faz a imagem preencher a altura */
+    object-fit: cover; /* Garante que a imagem cubra toda a área sem espaço em branco */
 }
+
+
+
 
 /* Botões de navegação */
 .carousel button {
@@ -316,7 +322,7 @@ border-radius: 15px;
 
 form input:focus, form textarea:focus {     /*quando clica no input*/
 
-background-color: rgb(242, 250, 252);
+    background-color: rgb(234, 245, 248);
 
 }
 
