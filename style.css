@@ -42,11 +42,12 @@ font-family: 'Cinzel', serif;
     list-style: none;
     padding: 0;
     margin: 20px 0;
-    
+ 
 }
 
 #nav li {
     margin: 0 15px;
+ 
 }
 
 #nav a {
@@ -54,10 +55,12 @@ font-family: 'Cinzel', serif;
     color: #333;
     font-size: 1.2rem;
     font-weight: bold;
+ 
 }
 
 #nav a:hover {
     color: #539eac; /* Cor de destaque no hover */
+    transition: background-color 20s ease;
 }
 
 
@@ -67,6 +70,8 @@ font-family: 'Cinzel', serif;
     max-width: 600px;
     margin: 20px auto;
     overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgb(122, 122, 122);
 }
 
 .carousel-images {
@@ -78,6 +83,7 @@ font-family: 'Cinzel', serif;
 .carousel-images img {
     min-width: 100%;
     transition: opacity 0.5s ease;
+
 }
 
 /* Botões de navegação */
@@ -85,10 +91,10 @@ font-family: 'Cinzel', serif;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo translúcido */
+    background-color: rgba(0, 0, 0, 0); /* Fundo translúcido */
     color: white;
     border: none;
-    padding: 10px;
+    padding: 20px;
     font-size: 24px;
     cursor: pointer;
     z-index: 10;
@@ -96,6 +102,7 @@ font-family: 'Cinzel', serif;
 
 .carousel .prev {
     left: 10px;  /* Posição do botão "anterior" à esquerda */
+    
 }
 
 .carousel .next {
@@ -103,7 +110,7 @@ font-family: 'Cinzel', serif;
 }
 
 .carousel button:hover {
-    background-color: rgba(0, 0, 0, 0.8);  /* Altera a cor do botão ao passar o mouse */
+    background-color: rgba(255, 255, 255, 0);  /* Altera a cor do botão ao passar o mouse */
 }
 /* Título Centralizado para Cardápio */
 
@@ -224,7 +231,8 @@ font-family: 'Cinzel', serif;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.7s ease;
+    border-radius: 20px 4px 20px;
 }
 
 .sidebar li:hover {
@@ -242,6 +250,7 @@ font-family: 'Cinzel', serif;
 .main-content {
     width: 75%;
     padding: 15px;
+
 }
 
 /* Título da seção */
@@ -263,6 +272,7 @@ font-family: 'Cinzel', serif;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     padding: 10px;
     background-color: #fff;
+    border-radius: 5px 28px 4px 30px;
 }
 
 .grid-item img {
@@ -441,21 +451,22 @@ padding:0;
 
 .foto-sn img {
     margin-left: 20px;
-    border-radius: 10px;
+    border-radius: 16px 36px 10px 80px;
     display: flex;
     width: 780px;
+    box-shadow: 4px 4px 20px rgb(122, 122, 122);
 
   }
 
 .foto-sn2 img {
     margin-top: 40px;
     margin-right: 50px;
-    border-radius: 10px;
+    border-radius: 16px 36px 10px 80px;
     width: 780px;
     display: flex;
     margin-left: 20px;
     float:right;
-
+    box-shadow: 4px 4px 20px rgb(122, 122, 122);
 }
 
 
@@ -469,10 +480,11 @@ padding:0;
     margin: 30px auto;
     padding: 20px;
     background-color: #f4f4f4; /* Cor de fundo do carrossel */
-    border-radius: 10px;
+    border-radius: 16px;
     max-width: calc((150px * 5) + (15px * (5 - 1))); /* Exatamente 5 itens com espaçamento */
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden; /* Oculta itens excedentes */
+    box-shadow: 4px 4px 10px rgb(187, 187, 187);
 }
 
 .menu-items {
@@ -507,14 +519,24 @@ padding:0;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 24px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 8px;
     border-radius: 50%;
     z-index: 10;
+    font-weight: bolder;
+    width: 45px;
+    height: 45px;
+
+}
+
+.menu-carousel button:hover {
+
+    background-color: #fcfcfc56;
+
 }
 
 .menu-carousel .prev-menu {
@@ -523,11 +545,9 @@ padding:0;
 
 .menu-carousel .next-menu {
     right: 15px; /* Botão à direita */
+
 }
 
-.menu-carousel button:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Cor de hover */
-}
 
 .menu-item a {
     text-decoration: none; /* Remove o sublinhado */
