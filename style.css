@@ -70,6 +70,8 @@ font-family: 'Cinzel', serif;
     max-width: 600px;
     margin: 20px auto;
     overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgb(122, 122, 122);
 }
 
 .carousel-images {
@@ -77,14 +79,12 @@ font-family: 'Cinzel', serif;
     transition: transform 0.5s ease;
     width: 100%;
 }
+
 .carousel-images img {
     min-width: 100%;
     transition: opacity 0.5s ease;
 
 }
-
-
-
 
 /* Botões de navegação */
 .carousel button {
@@ -326,7 +326,7 @@ border-radius: 15px;
 
 form input:focus, form textarea:focus {     /*quando clica no input*/
 
-    background-color: rgb(234, 245, 248);
+background-color: rgb(242, 250, 252);
 
 }
 
