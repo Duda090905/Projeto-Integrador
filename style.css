@@ -139,7 +139,7 @@ font-family: 'Cinzel', serif;
     height: 100px;
     width: auto;
     float: right;
-    margin-right: 760px;
+    margin-right: 507px;
     padding-bottom:50px;
     margin-top: -55px;
 }
@@ -161,7 +161,7 @@ font-family: 'Cinzel', serif;
     height: 100px;
     width: auto;
     float: right;
-    margin-right: 755px;
+    margin-right: 502px;
     padding-bottom:50px;
     margin-top: -55px;
 
@@ -308,7 +308,7 @@ font-family: 'Cinzel', serif;
 display: flex;
 align-items: center;
 justify-content: center;
-height: 60vh;
+height: 80vh;
 
 
 
@@ -400,7 +400,7 @@ cursor: pointer;
 align-items: center;
 display: inline-block;
 font-weight: bold;
-margin-left: 850px;
+margin-left: 600px;
 padding: 0%;
 position: relative;
 bottom: 40px;
