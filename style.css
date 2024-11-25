@@ -1,3 +1,11 @@
+body{
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
 h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -177,7 +185,7 @@ font-family: 'Cinzel', serif;
 .title-section h2 {
     font-size: 2rem;
     color: #000000;
-    margin: 0;
+    margin: 0 auto;
     font-weight: bold;
 }
 
@@ -423,27 +431,30 @@ padding:0;
 
 
 .text-sn1 {
-    flex:1px; 
-    padding: 20px;
+
+    padding: 10px;
     align-items:center;
-    margin: 10px 0;
+    margin-right: 20px;
+    margin-left: 10px;
     font-family: 'Playfair Display';
     font-size: 23px;
     font-weight: 800px;
     text-align: justify;
-    line-height: 42px;
+    line-height: 37px;
 }
     
 .text-sn2 {
 
     align-items:center;
+    margin-top: 35px;
     font-family: 'Playfair Display';
     font-size: 23px;
     text-align: justify;
-    line-height: 42px;
-    margin-left: 60px;
+    line-height: 37px;
+    margin-left: 10px;
+    font-weight: 800px;
     width: 50%;
-    padding-top: 30px;
+    padding: 10px;
 
 
 }
@@ -453,16 +464,16 @@ padding:0;
     margin-left: 20px;
     border-radius: 16px 36px 10px 80px;
     display: flex;
-    width: 780px;
+    width: 600px;
     box-shadow: 4px 4px 20px rgb(122, 122, 122);
-
+    
   }
 
 .foto-sn2 img {
     margin-top: 40px;
-    margin-right: 50px;
+    margin-right: 20px;
     border-radius: 16px 36px 10px 80px;
-    width: 780px;
+    width: 620px;
     display: flex;
     margin-left: 20px;
     float:right;
