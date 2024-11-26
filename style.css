@@ -1,3 +1,11 @@
+body{
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
 h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -131,7 +139,7 @@ font-family: 'Cinzel', serif;
     height: 100px;
     width: auto;
     float: right;
-    margin-right: 760px;
+    margin-right: 507px;
     padding-bottom:50px;
     margin-top: -55px;
 }
@@ -153,7 +161,7 @@ font-family: 'Cinzel', serif;
     height: 100px;
     width: auto;
     float: right;
-    margin-right: 755px;
+    margin-right: 502px;
     padding-bottom:50px;
     margin-top: -55px;
 
@@ -177,7 +185,7 @@ font-family: 'Cinzel', serif;
 .title-section h2 {
     font-size: 2rem;
     color: #000000;
-    margin: 0;
+    margin: 0 auto;
     font-weight: bold;
 }
 
@@ -300,7 +308,7 @@ font-family: 'Cinzel', serif;
 display: flex;
 align-items: center;
 justify-content: center;
-height: 60vh;
+height: 80vh;
 
 
 
@@ -392,7 +400,7 @@ cursor: pointer;
 align-items: center;
 display: inline-block;
 font-weight: bold;
-margin-left: 850px;
+margin-left: 600px;
 padding: 0%;
 position: relative;
 bottom: 40px;
@@ -423,27 +431,30 @@ padding:0;
 
 
 .text-sn1 {
-    flex:1px; 
-    padding: 20px;
+
+    padding: 10px;
     align-items:center;
-    margin: 10px 0;
+    margin-right: 20px;
+    margin-left: 10px;
     font-family: 'Playfair Display';
     font-size: 23px;
     font-weight: 800px;
     text-align: justify;
-    line-height: 42px;
+    line-height: 37px;
 }
     
 .text-sn2 {
 
     align-items:center;
+    margin-top: 35px;
     font-family: 'Playfair Display';
     font-size: 23px;
     text-align: justify;
-    line-height: 42px;
-    margin-left: 60px;
+    line-height: 37px;
+    margin-left: 10px;
+    font-weight: 800px;
     width: 50%;
-    padding-top: 30px;
+    padding: 10px;
 
 
 }
@@ -453,16 +464,16 @@ padding:0;
     margin-left: 20px;
     border-radius: 16px 36px 10px 80px;
     display: flex;
-    width: 780px;
+    width: 600px;
     box-shadow: 4px 4px 20px rgb(122, 122, 122);
-
+    
   }
 
 .foto-sn2 img {
     margin-top: 40px;
-    margin-right: 50px;
+    margin-right: 20px;
     border-radius: 16px 36px 10px 80px;
-    width: 780px;
+    width: 620px;
     display: flex;
     margin-left: 20px;
     float:right;
@@ -577,3 +588,59 @@ padding-bottom: 20px;
     padding-bottom: 20px;
     
     }
+
+    .title-section {
+        text-align: center;
+        position: relative;
+        margin: 40px 0;
+    }
+    
+    .title-section h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.5rem;
+        color: #000;
+        display: inline-block; /* Para centralizar o título */
+        position: relative;
+        padding: 0 20px; /* Cria espaço entre o texto e os ícones */
+    }
+    
+    .icon-burger-left,
+    .icon-burger-right {
+        position: absolute;
+        top: 50%; /* Alinha verticalmente ao centro do título */
+        transform: translateY(-50%);
+    }
+    
+    .icon-burger-left {
+        left: -40px; /* Ajuste fino para o ícone da esquerda */
+    }
+    
+    .icon-burger-right {
+        right: -40px; /* Ajuste fino para o ícone da direita */
+    }
+    
+    .icon-burger-left img,
+    .icon-burger-right img {
+        height: 50px; /* Tamanho do ícone */
+        width: auto;
+    }
+    
+    @media (max-width: 768px) {
+        .title-section h2 {
+            font-size: 1.8rem; /* Reduz o tamanho do título em telas pequenas */
+        }
+    
+        .icon-burger-left {
+            left: -25px; /* Ajusta a posição do ícone para telas pequenas */
+        }
+    
+        .icon-burger-right {
+            right: -25px; /* Ajusta a posição do ícone para telas pequenas */
+        }
+    
+        .icon-burger-left img,
+        .icon-burger-right img {
+            height: 40px; /* Ícones menores para telas pequenas */
+        }
+    }
+    
