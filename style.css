@@ -2,6 +2,7 @@ body{
 
     margin: 0;
     padding: 0;
+    font-family: 'Cinzel', serif;
 
 
 }
@@ -17,12 +18,14 @@ body {
 
 font-family: 'Cinzel', serif;
 
+
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
@@ -75,7 +78,7 @@ font-family: 'Cinzel', serif;
 
 .carousel {
     position: relative;
-    max-width: 600px;
+    max-width: 800px;
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
@@ -451,7 +454,7 @@ padding:0;
     font-size: 23px;
     text-align: justify;
     line-height: 37px;
-    margin-left: 10px;
+    margin-left: 60px;
     font-weight: 800px;
     width: 50%;
     padding: 10px;
@@ -459,21 +462,6 @@ padding:0;
 
 }
 
-.text-sn3 {
-
-    padding: 60px;
-    align-items:center;
-    margin-right: 20px;
-    margin-left: 10px;
-    font-family: 'Playfair Display';
-    font-size: 30px;
-    font-weight: 800px;
-    text-align: justify;
-    line-height: 37px;
-    background-color: #383b3d;   /* Cor de fundo */
-    color: white;
-    border-radius: 30px;
-}
 
 .foto-sn img {
     margin-left: 20px;
@@ -498,9 +486,9 @@ padding:0;
 
 .foto-sn2 img {
     margin-top: 40px;
-    margin-right: 20px;
+    margin-right: 70px;
     border-radius: 30px;
-    width: 60px;
+    width: 700px;
     display: flex;
     margin-left: 20px;
     float:right;
@@ -671,3 +659,20 @@ padding-bottom: 20px;
         }
     }
     
+/* Sobremesas */
+
+.text-sn3 {
+
+    padding: 60px;
+    align-items:center;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    font-weight: 800px;
+    text-align: justify;
+    line-height: 37px;
+    background-color: #383b3d;   /* Cor de fundo */
+    color: white;
+    border-radius: 30px;
+}
