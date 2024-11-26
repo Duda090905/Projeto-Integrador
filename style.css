@@ -588,3 +588,59 @@ padding-bottom: 20px;
     padding-bottom: 20px;
     
     }
+
+    .title-section {
+        text-align: center;
+        position: relative;
+        margin: 40px 0;
+    }
+    
+    .title-section h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.5rem;
+        color: #000;
+        display: inline-block; /* Para centralizar o título */
+        position: relative;
+        padding: 0 20px; /* Cria espaço entre o texto e os ícones */
+    }
+    
+    .icon-burger-left,
+    .icon-burger-right {
+        position: absolute;
+        top: 50%; /* Alinha verticalmente ao centro do título */
+        transform: translateY(-50%);
+    }
+    
+    .icon-burger-left {
+        left: -40px; /* Ajuste fino para o ícone da esquerda */
+    }
+    
+    .icon-burger-right {
+        right: -40px; /* Ajuste fino para o ícone da direita */
+    }
+    
+    .icon-burger-left img,
+    .icon-burger-right img {
+        height: 50px; /* Tamanho do ícone */
+        width: auto;
+    }
+    
+    @media (max-width: 768px) {
+        .title-section h2 {
+            font-size: 1.8rem; /* Reduz o tamanho do título em telas pequenas */
+        }
+    
+        .icon-burger-left {
+            left: -25px; /* Ajusta a posição do ícone para telas pequenas */
+        }
+    
+        .icon-burger-right {
+            right: -25px; /* Ajusta a posição do ícone para telas pequenas */
+        }
+    
+        .icon-burger-left img,
+        .icon-burger-right img {
+            height: 40px; /* Ícones menores para telas pequenas */
+        }
+    }
+    
