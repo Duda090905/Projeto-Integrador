@@ -54,33 +54,37 @@ h2{
     list-style: none;
     padding: 0;
     margin: 20px 0;
- 
 }
 
 #nav li {
     margin: 0 15px;
- 
 }
 
 #nav a {
     text-decoration: none;
-    color: #333;
-    font-size: 1.2rem;
+    color: #fff; /* Cor do texto */
+    font-size: 1rem;
     font-weight: bold;
- 
+    padding: 10px 20px;
+    background-color: #2c3e50; /* Cor de fundo amarelo */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 #nav a:hover {
-    color: #539eac; /* Cor de destaque no hover */
-    transition: background-color 20s ease;
+    background-color: #2c3e50; /* Cor de destaque no hover */
+    transform: scale(1.1); /* Aumenta levemente o botão no hover */
+    color: #000; /* Cor do texto no hover */
 }
+
 
 .carousel {
     position: relative;
     width: 100%; /* Ocupar 100% da largura da tela */
     height: 80vh; /* Ocupar 100% da altura da tela */
     overflow: hidden;
-    border-radius: 0; /* Remove borda arredondada */
+    border-radius: 15px; /* Remove borda arredondada */
     box-shadow: none; /* Remove a sombra */
     margin-bottom: 30px; /* Espaço entre os carrosséis (ajuste conforme necessário) */
 }
@@ -113,17 +117,38 @@ h2{
     z-index: 10;
 }
 
+/* Estilo para os botões do carrossel */
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #2c3e50; /* Fundo semitransparente */
+    border: none;
+    color: #fff; /* Cor do ícone */
+    font-size: 2rem; /* Tamanho do ícone */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 50%; /* Botão arredondado */
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Animações suaves */
+}
+
 .carousel .prev {
-    left: 10px;  /* Posição do botão "anterior" à esquerda */
+    left: 10px; /* Posição do botão "anterior" à esquerda */
 }
 
 .carousel .next {
     right: 10px; /* Posição do botão "próximo" à direita */
 }
 
+/* Efeito ao passar o mouse nos botões */
 .carousel button:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Altera a cor do botão ao passar o mouse */
+    background-color: #2c3e50; /* Fundo mais claro */
+    color: #fff; /* Cor do ícone no hover */
+    transform: scale(1.2); /* Aumenta o botão levemente */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.7); /* Sombra mais intensa */
 }
+
 
 /* Título Centralizado para Cardápio */
 
@@ -218,6 +243,7 @@ h2{
     width: 25%;
     background-color: #2c3e50; /* Fundo amarelo */
     padding: 15px;
+    border-radius: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     height: 100vh; /* Ocupa a altura inteira da tela */
     position: sticky; /* Para manter fixa na rolagem */
@@ -456,6 +482,21 @@ padding:0;
 
 }
 
+.text-sn3 {
+        padding: 40px;
+        align-items:center;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-family: 'Playfair Display';
+        font-size: 20px;
+        font-weight: 800px;
+        text-align: justify;
+        line-height: 25px;
+        background-color: #535557a2;   /* Cor de fundo */
+        color: white;
+        border-radius: 30px;
+}
+
 
 .foto-sn img {
     margin-left: 20px;
@@ -469,13 +510,12 @@ padding:0;
 }
 
 .foto-sn1 img {
-    margin-left: 60px;
+    margin-left: 40px;
     margin-top: 20px;
-    border-radius: 30px;
-    display: flex;
-    width: 400px;
-    box-shadow: 4px 4px 20px rgb(122, 122, 122);
-    
+    border-radius: 20px;
+    display: block;
+    width: 300px;
+    box-shadow: 4px 4px 20px rgba(122, 122, 122, 0.5);
 }
 
 .foto-sn2 img {
@@ -491,7 +531,6 @@ padding:0;
 }
 
 
-
 /*Carrossel Página Inicial*/
 
 
@@ -503,11 +542,12 @@ padding:0;
     padding: 20px;
     background-color: #f4f4f4; /* Cor de fundo do carrossel */
     border-radius: 16px;
-    max-width: calc((150px * 5) + (15px * (5 - 1))); /* Exatamente 5 itens com espaçamento */
+    max-width: calc((150px * 8) + (15px * (8 - 1))); /* Agora acomoda 6 itens */
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden; /* Oculta itens excedentes */
     box-shadow: 4px 4px 10px rgb(187, 187, 187);
 }
+
 
 .menu-items {
     display: flex;
@@ -578,9 +618,10 @@ padding:0;
 }
 
 .menu-item a:hover {
-    color: #f39c12; /* Define uma cor para o hover */
+    color: #3a3761; /* Define uma cor para o hover */
     text-decoration: none; /* Garante que o sublinhado não apareça no hover */
 }
+
 
 #rodape {
 
@@ -658,21 +699,3 @@ color: white;
             height: 40px; /* Ícones menores para telas pequenas */
         }
     }
-    
-/* Sobremesas */
-
-.text-sn3 {
-
-    padding: 60px;
-    align-items:center;
-    margin-right: 20px;
-    margin-left: 10px;
-    font-family: 'Playfair Display';
-    font-size: 30px;
-    font-weight: 800px;
-    text-align: justify;
-    line-height: 37px;
-    background-color: #383b3d;   /* Cor de fundo */
-    color: white;
-    border-radius: 30px;
-}
