@@ -7,10 +7,18 @@ body{
 
 }
 
-h1, h2, h3, h4 {
+h1, h3, h4 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     color: #333;
+}
+
+h2{
+    font-family: 'Carelia', serif;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    font-size: 70px; /* Altere para o tamanho desejado */
 }
 
 
@@ -67,27 +75,28 @@ h1, h2, h3, h4 {
     transition: background-color 20s ease;
 }
 
-
-
 .carousel {
     position: relative;
-    max-width: 800px;
-    margin: 20px auto;
+    width: 100%; /* Ocupar 100% da largura da tela */
+    height: 80vh; /* Ocupar 100% da altura da tela */
     overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 4px 4px 20px rgb(122, 122, 122);
+    border-radius: 0; /* Remove borda arredondada */
+    box-shadow: none; /* Remove a sombra */
+    margin-bottom: 30px; /* Espaço entre os carrosséis (ajuste conforme necessário) */
 }
 
 .carousel-images {
     display: flex;
     transition: transform 0.5s ease;
     width: 100%;
+    height: 100%; /* Garante que as imagens ocupem toda a altura do carrossel */
 }
 
 .carousel-images img {
-    min-width: 100%;
+    width: 100%; /* Faz as imagens ocuparem toda a largura do carrossel */
+    height: 100%; /* Faz as imagens ocuparem toda a altura do carrossel */
+    object-fit: cover; /* Garante que a imagem cubra toda a área sem distorcer */
     transition: opacity 0.5s ease;
-
 }
 
 /* Botões de navegação */
@@ -95,7 +104,7 @@ h1, h2, h3, h4 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0); /* Fundo translúcido */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo translúcido */
     color: white;
     border: none;
     padding: 20px;
@@ -106,7 +115,6 @@ h1, h2, h3, h4 {
 
 .carousel .prev {
     left: 10px;  /* Posição do botão "anterior" à esquerda */
-    
 }
 
 .carousel .next {
@@ -114,16 +122,16 @@ h1, h2, h3, h4 {
 }
 
 .carousel button:hover {
-    background-color: rgba(255, 255, 255, 0);  /* Altera a cor do botão ao passar o mouse */
+    background-color: rgba(255, 255, 255, 0.3); /* Altera a cor do botão ao passar o mouse */
 }
+
 /* Título Centralizado para Cardápio */
 
 .title-section {
 
-    padding: 40px;
+    padding: 5px;
     text-align: center;
     position: relative;
-    
 }
 
 
@@ -194,13 +202,11 @@ h1, h2, h3, h4 {
 
 
 .title-section h4 {
-    font-size: 1.2rem;
-    color: #4b4b4b;
+    font-size: 1.8rem;
+    color: #1d2935;
     margin: 0;
     font-weight: bold;
 }
-
-
 
 .container {
     display: flex;
@@ -210,16 +216,12 @@ h1, h2, h3, h4 {
 /* Barra lateral (Categorias) */
 .sidebar {
     width: 25%;
-    background-color: #f4f4f4;
-    padding:15px;
+    background-color: #2c3e50; /* Fundo amarelo */
+    padding: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    height:55vh;
-}
-
-.sidebar h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #2c3e50;
+    height: 100vh; /* Ocupa a altura inteira da tela */
+    position: sticky; /* Para manter fixa na rolagem */
+    top: 5px; /* Posição fixa a partir do topo */
 }
 
 .sidebar ul {
@@ -229,25 +231,25 @@ h1, h2, h3, h4 {
 }
 
 .sidebar li {
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #fff;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 25px 0;
+    padding: 15px;
+    background-color: #5f7e9f; /* Fundo dos itens em amarelo claro */
     text-align: center;
     cursor: pointer;
-    transition: background-color 0.7s ease;
-    border-radius: 20px 4px 20px;
+    transition: background-color 0.5s ease;
+    border-radius: 20px; /* Borda arredondada */
+    font-weight: bold;
+    color: #000; /* Cor do texto preta */
 }
 
 .sidebar li:hover {
-    background-color: #539eac;
-    color: #fff;
+    background-color: #5f7e9f; /* Cor ao passar o mouse */
+    color: #000; /* Mantém o texto legível */
 }
 
 .sidebar a {
     text-decoration: none;
     color: inherit;
-    font-weight: bold;
 }
 
 /* Conteúdo principal */
@@ -420,7 +422,6 @@ padding:0;
     margin: 0;
     padding:0;
     display: inline-block;
-  
     }
 
 
@@ -495,6 +496,7 @@ padding:0;
 
 
 .menu-carousel {
+    width: 100%; /* Ocupar 100% da largura da tela */
     position: relative;
     text-align: center;
     margin: 30px auto;
