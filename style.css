@@ -3,20 +3,20 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Cinzel', serif;
-    background-attachment: fixed;
+    background: linear-gradient(to bottom, #2c2c2c, #1a1a1a,#0d0d0d);
 
 }
 
 h1, h3, h4 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    color: #333;
+    color: #ffffff;
 }
 
 h2{
     font-family: 'Carelia', serif;
     font-weight: 700;
-    color: #333;
+    color: #ffffff;
     text-align: center;
     font-size: 70px; /* Altere para o tamanho desejado */
 }
@@ -36,7 +36,15 @@ h2{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    height: 150px;
 
+}
+
+#header img {
+    height: 200px; /* Ajuste o tamanho da imagem */
+    margin-top: 20px;
 }
 
 #header h1 {
@@ -46,6 +54,7 @@ h2{
     color: #fff; /* Adicionado o ponto e vírgula aqui */
     padding: 5px;
     width: 100%;
+
 }
 
 #nav ul {
@@ -75,7 +84,7 @@ h2{
 #nav li:hover {
     background-color: #2c3e50; /* Cor de destaque no hover */
     transform: scale(1.1); /* Aumenta o botão levemente */
-    color: #000; /* Cor do texto no hover */
+    color: #ffffff; /* Cor do texto no hover */
 }
 
 
@@ -213,7 +222,7 @@ h2{
 
 .title-section h2 {
     font-size: 2rem;
-    color: #000000;
+    color: #ffffff;
     margin: 0 auto;
     font-weight: bold;
 }
@@ -221,14 +230,14 @@ h2{
 .title-section h3 {
 
     font-size: 1.1rem;
-    color: #4b4b4b;
+    color: #ffffff;
 
 }
 
 
 .title-section h4 {
     font-size: 1.8rem;
-    color: #1d2935;
+    color: #ffffff;
     margin: 0;
     font-weight: bold;
 }
@@ -259,18 +268,18 @@ h2{
 .sidebar li {
     margin: 25px 0;
     padding: 15px;
-    background-color: #5f7e9f; /* Fundo dos itens em amarelo claro */
+    background-color: #415b74;
     text-align: center;
     cursor: pointer;
     transition: background-color 0.5s ease;
     border-radius: 20px; /* Borda arredondada */
     font-weight: bold;
-    color: #000; /* Cor do texto preta */
+    color: #ffffff; /* Cor do texto preta */
 }
 
 .sidebar li:hover {
     background-color: #5f7e9f; /* Cor ao passar o mouse */
-    color: #000; /* Mantém o texto legível */
+    color: #ffffff; /* Mantém o texto legível */
     transform: scale(1.1); /* Aumenta o botão levemente */
 }
 
@@ -289,7 +298,7 @@ h2{
 /* Título da seção */
 .main-content h2 {
     font-size: 1.8rem;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
@@ -316,7 +325,7 @@ h2{
 
 .grid-item p {
     font-size: 1rem;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -438,7 +447,7 @@ bottom: 40px;
 
 display:flex;
 align-items: center;
-margin-left: 150px;
+margin-left: 40px;
 padding:0;
 gap: 100px;
 }
@@ -457,15 +466,17 @@ gap: 100px;
 
 .text-sn1 {
 
-    padding: 10px;
     align-items:center;
-    margin-right: 20px;
-    margin-left: 10px;
+    margin-top: 20px;
     font-family: 'Playfair Display';
-    font-size: 25px;
-    font-weight: 800px;
+    font-size: 23px;
     text-align: justify;
     line-height: 37px;
+    margin-right: 60px;
+    font-weight: 800px;
+    width: 50%;
+    padding: 10px;
+    color: #ffffff;
 }
     
 .text-sn2 {
@@ -480,6 +491,7 @@ gap: 100px;
     font-weight: 800px;
     width: 50%;
     padding: 10px;
+    color: #ffffff;
 
 
 }
@@ -501,14 +513,11 @@ gap: 100px;
 
 
 .foto-sn img {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 5px;
     margin-top: 20px;
     border-radius: 30px;
     display: flex;
-    width: 600px;
-    box-shadow: 4px 4px 20px rgb(122, 122, 122);
-    
+    width: 700px;
 }
 
 .foto-sn1 img {
@@ -517,7 +526,6 @@ gap: 100px;
     border-radius: 20px;
     display: block;
     width: 300px;
-    box-shadow: 4px 4px 20px rgba(122, 122, 122, 0.5);
 }
 
 .foto-sn2 img {
@@ -529,7 +537,6 @@ gap: 100px;
     margin-left: 20px;
     margin-bottom: 70px ;
     float:right;
-    box-shadow: 4px 4px 20px rgb(122, 122, 122);
 }
 
 
@@ -542,12 +549,11 @@ gap: 100px;
     text-align: center;
     margin: 30px auto;
     padding: 20px;
-    background-color: #f4f4f4; /* Cor de fundo do carrossel */
+    background: linear-gradient(to bottom,#0d0d0d);
     border-radius: 16px;
     max-width: calc((150px * 8) + (15px * (8 - 1))); /* Agora acomoda 6 itens */
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden; /* Oculta itens excedentes */
-    box-shadow: 4px 4px 10px rgb(187, 187, 187);
 }
 
 
@@ -575,7 +581,7 @@ gap: 100px;
     font-family: 'Cinzel', sans-serif;
     font-size: 1rem;
     margin-top: 20px;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -584,8 +590,8 @@ gap: 100px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.829);
-    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.829);
+    color: #1d2935;
     border: none;
     cursor: pointer;
     padding: 8px;
@@ -599,7 +605,7 @@ gap: 100px;
 
 .menu-carousel button:hover {
 
-    background-color: #fcfcfc56;
+    scale: 1.1;
 
 }
 
@@ -656,7 +662,7 @@ color: white;
     .title-section h2 {
         font-family: 'Playfair Display', serif;
         font-size: 2.5rem;
-        color: #000;
+        color: #ffffff;
         display: inline-block; /* Para centralizar o título */
         position: relative;
         padding: 0 20px; /* Cria espaço entre o texto e os ícones */
@@ -703,12 +709,13 @@ color: white;
     }
     
     .card {
+        margin-left: 80px;
         display: flex;
         flex-direction: column;
         width: 400px;
         height: 600px;
         max-height: 600px;
-        background-color: #87a8cb;
+        background-color: #2c3e50;
         border-radius: 10px;
         box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.08), -4px -4px 12px rgba(0, 0, 0, 0.08);
         overflow: hidden;
@@ -745,7 +752,7 @@ color: white;
         font-size: 20px;
         font-family: "Lucida Sans",sans-serif;
         font-weight: 600;
-        color: #000000;
+        color: #ffffff;
         cursor: default;
         -webkit-box-orient: vertical;
         overflow: hidden;
@@ -764,7 +771,7 @@ color: white;
         margin: 0;
         font-size: 18px;
         font-family: "Lucida Sans", sans-serif;
-        color: #000000;
+        color: #ffffff;
         cursor: default;
         padding: 10px;
         background-color: #ffffff00; /* Cor de fundo */
