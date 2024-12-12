@@ -50,7 +50,15 @@ O site possui as seguintes páginas principais:
      - Mensagem
      - Unidade desejada
      - Função desejada
+    
 
+
+### 4. Sobre Nós
+
+- Textos e imagens sobre o restaurante
+
+
+    
 ## Tecnologias Utilizadas
 
 - **HTML5**
