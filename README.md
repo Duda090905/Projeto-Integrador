@@ -6,7 +6,6 @@ O projeto trata-se de um site para o cardápio de uma hamburgueria chamada Maste
 Link do site: https://masterofburgers.netlify.app/
 
 
-
 Participantes:
 
 - Maria Eduarda Trevisan (líder) @Duda09095
@@ -64,7 +63,6 @@ O site possui as seguintes páginas principais:
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Frameworks:** (adicione aqui os frameworks usados, se houver)
 
 ## Funcionalidades
 
@@ -88,17 +86,25 @@ O site possui as seguintes páginas principais:
 ## Estrutura do Projeto
 
 ```
-master-of-burgers/
-├── index.html       # Página principal (Home)
-├── menu.html        # Página do cardápio
-├── contact.html     # Página de contato
-├── css/
-│   ├── styles.css   # Estilos principais do site
-├── js/
-│   ├── script.js    # Scripts para interatividade
-├── assets/
-    ├── images/      # Imagens do site
-```
+Projeto-Integrador/
+├── acompanhamentos.html   # Página de acompanhamentos
+├── bebidas.html           # Página de bebidas
+├── burgercarne.html       # Página de hambúrgueres de carne
+├── burgerfrango.html      # Página de hambúrgueres de frango
+├── combos.html            # Página de combos
+├── Contato.html           # Página de contato
+├── index.html             # Página inicial
+├── kids.html              # Página do menu kids
+├── lancamentos.html       # Página dos lançamentos
+├── promocoes.html         # Página de promoções
+├── sobremesas.html        # Página de sobremesas
+├── sobrenos.html          # Página sobre nós
+├── vegetariano.html       # Página de hambúrgueres vegetarianos
+├── script.js              # Script principal
+├── style.css              # Estilos do site
+├── README.md              # Documentação do projeto
+└── imagens/               # Diretório com imagens utilizadas no site
+
 
 ## Contribuições
 
@@ -119,9 +125,6 @@ Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
    ```
 5. Abra um Pull Request neste repositório.
 
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 ---
 
