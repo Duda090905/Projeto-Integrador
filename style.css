@@ -732,6 +732,7 @@ color: white;
         cursor: pointer;
         box-sizing: border-box;
         padding: 10px;
+  
     }
 
     .card:hover {
@@ -759,7 +760,7 @@ color: white;
     .card-title {
         margin: 0;
         font-size: 20px;
-        font-family: "Lucida Sans",sans-serif;
+        font-family: 'Playfair Display';
         font-weight: 600;
         color: #ffffff;
         cursor: default;
@@ -779,7 +780,7 @@ color: white;
         line-height: 30px;
         margin: 0;
         font-size: 18px;
-        font-family: "Lucida Sans", sans-serif;
+        font-family: 'Cinzel';
         color: #ffffff;
         cursor: default;
         padding: 10px;
