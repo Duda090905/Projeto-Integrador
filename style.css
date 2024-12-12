@@ -252,8 +252,8 @@ h2{
 .sidebar {
     width: 25%;
     background-color: #1d2b38; /* Fundo */
-    padding: 15px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     height: 100vh; /* Ocupa a altura inteira da tela */
     position: sticky; /* Para manter fixa na rolagem */
@@ -266,14 +266,14 @@ h2{
     color: #fff; /* Cor do texto */
     font-size: 1rem;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 20px 40px;
     background-color: #2c3e50; /* Cor de fundo */
-    border-radius: 20px; /* Bordas arredondadas */
+    border-radius: 40px; /* Bordas arredondadas */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
     transition: transform 0.3s ease, background-color 0.3s ease;
     border: none; /* Remover borda padrão do botão */
     cursor: pointer; /* Mostrar cursor de botão */
-    width: 400px;
+    width: 500px;
     font-family: 'Cinzel';
     
 }
@@ -290,7 +290,7 @@ h2{
 }
 
 .sidebar li {
-    margin-bottom: 10px; /* Espaçamento entre os botões */
+    margin-bottom: 30px; /* Espaçamento entre os botões */
     display: flex;
 }
 
@@ -452,11 +452,11 @@ bottom: 40px;
 
 .section1{
 
-display:flex;
-align-items: center;
-margin-left: 40px;
-padding:0;
-gap: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajusta os cards automaticamente */
+    gap: 20px; /* Espaçamento entre os cards */
+    justify-content: center; /* Centraliza o grid */
+    margin-bottom: 20px; /* Adiciona espaço entre as seções */
 }
 
 .section2{
@@ -697,6 +697,7 @@ color: white;
     }
     
     @media (max-width: 768px) {
+        /* Título e Ícones já existentes */
         .title-section h2 {
             font-size: 1.8rem; /* Reduz o tamanho do título em telas pequenas */
         }
@@ -713,26 +714,112 @@ color: white;
         .icon-burger-right img {
             height: 40px; /* Ícones menores para telas pequenas */
         }
+    
+        /* Novos ajustes */
+    
+        #header {
+            flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
+            padding: 20px; /* Reduz o espaço interno */
+        }
+    
+        #header h1 {
+            font-size: 1.2rem; /* Menor tamanho para telas muito pequenas */
+            text-align: center;
+        }
+        
+        #header img {
+            height: 80px; /* Reduz ainda mais o logo */
+        }
+    
+        #nav ul {
+            flex-direction: column; /* Mantém o menu em coluna */
+            gap: 8px; /* Ajusta o espaçamento entre itens */
+            padding: 10px 0; /* Adiciona espaço interno */
+        }
+    
+        #nav li {
+            margin: 5px 0;
+        }
+    
+        .sidebar {
+            width: 90%; /* Deixa um pouco de espaço nas laterais */
+            margin: 10px auto; /* Centraliza a barra lateral */
+        }
+    
+        .sidebar ul {
+            display: flex;
+            flex-wrap: wrap; /* Permite que os botões fiquem em múltiplas linhas */
+            justify-content: center;
+            gap: 10px; /* Espaçamento entre botões */
+        }
+    
+        .sidebar button {
+            width: auto; /* Remove a largura 100% */
+            padding: 5px 10px; /* Reduz o padding */
+            font-size: 0.9rem; /* Ajusta o tamanho do texto */
+        }
+    
+        .main-content {
+            width: 100%; /* Conteúdo principal ocupa toda a largura */
+            padding: 10px;
+        }
+    
+        .card {
+            max-width: 90%; /* Reduz a largura dos cards */
+            margin: 10px auto; /* Centraliza os cards */
+            height: auto; /* Permite altura dinâmica */
+        }
+        .grid {
+            grid-template-columns: 1fr; /* Apenas uma coluna em telas menores */
+            gap: 15px; /* Espaçamento entre os cards */
+        }
+    
+        .card-image-container {
+            height: auto; /* Ajusta dinamicamente a altura */
+        }
+    
+        .card-title {
+            font-size: 1rem; /* Reduz tamanho do título */
+        }
+    
+        .card-des {
+            font-size: 0.9rem; /* Reduz tamanho da descrição */
+            line-height: 1.2; /* Ajusta espaçamento entre linhas */
+        }
+
+
     }
+    @media (max-width: 480px) {
+    #header h1 {
+        font-size: 1.2rem; /* Reduz ainda mais o tamanho do título */
+    }
+
+    .card-des {
+        font-size: 0.8rem; /* Reduz o tamanho da descrição */
+    }
+
+    #nav ul {
+        gap: 5px; /* Reduz o espaçamento entre os itens */
+    }
+}
+
 
     /*Cardápio*/
     
     .card {
-        margin-left: 120px;
         display: flex;
         flex-direction: column;
-        width: 400px;
-        height: 600px;
-        max-height: 600px;
+        justify-content: flex-start; /* Garante que os elementos dentro do card se alinhem uniformemente */
+        width: 100%; /* Faz os cards ocuparem o mesmo tamanho na grade */
+        max-width: 400px; /* Limita a largura máxima */
+        height: auto; /* Define uma altura fixa */
+        margin: 0 auto; /* Centraliza os cards */
         background-color: #2c3e50;
         border-radius: 10px;
         box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.08), -4px -4px 12px rgba(0, 0, 0, 0.08);
         overflow: hidden;
-        transition: all 0.3s;
-        cursor: pointer;
-        box-sizing: border-box;
         padding: 10px;
-  
+        box-sizing: border-box;
     }
 
     .card:hover {
@@ -742,7 +829,8 @@ color: white;
     
     .card-image-container {
         width: 100%;
-        height: 50%;
+        min-height: 200px; /* Define uma altura mínima */
+        height: auto; /* Ajusta a altura de forma dinâmica */
         border-radius: 10px;
         margin-bottom: 12px;
         overflow: hidden;
@@ -755,11 +843,13 @@ color: white;
     .card-image-container img {
         width: 100%;
         height: auto;
+        object-fit: contain; /* Garante que a imagem preencha o espaço sem distorcer */
+        border-radius: 10px; /* Mantém bordas arredondadas */
     }
     
     .card-title {
         margin: 0;
-        font-size: 20px;
+        font-size: 1.2rem;
         font-family: 'Playfair Display';
         font-weight: 600;
         color: #ffffff;
@@ -774,17 +864,15 @@ color: white;
     
     .card-des {
         -webkit-box-orient: vertical;
-        display: -webkit-box;
-        -webkit-line-clamp: 7;
-        line-clamp: 7;
-        line-height: 30px;
+        display: block; /* Permite que o texto cresça sem restrição */
+        line-height: 1.6;
         margin: 0;
-        font-size: 18px;
+        font-size: 1rem;
         font-family: 'Cinzel';
         color: #ffffff;
         cursor: default;
-        padding: 10px;
-        background-color: #ffffff00; /* Cor de fundo */
+        padding: 15px;
+        background-color: #ffffff00;
         border-radius: 30px;
+        text-align: center;
     }
-    
