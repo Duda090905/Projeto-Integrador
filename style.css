@@ -280,7 +280,6 @@ h2{
 
 .sidebar button:hover {
     background-color: #3b4b5c; /* Cor de destaque no hover */
-    transform: scale(1.1); /* Aumenta o botão levemente */
     color: #ffffff; /* Cor do texto no hover */
 }
 
