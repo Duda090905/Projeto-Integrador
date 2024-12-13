@@ -28,8 +28,9 @@ O site possui as seguintes páginas principais:
 - Dois carrosséis destacando os principais lançamentos da **Master of Burgers**.
 - Um carrossel interativo que redireciona os clientes diretamente para o cardápio.
 
-- ![index1](https://github.com/user-attachments/assets/a10981b2-7853-46fb-a9d9-ab81dc802424)
-![index2](https://github.com/user-attachments/assets/55590186-d79a-4605-b205-1920c7df9d5c)
+![index1](https://github.com/user-attachments/assets/0530e43c-a05b-4256-a57c-c998ec25346c)
+![index2](https://github.com/user-attachments/assets/8327c348-b1a4-4a4d-a961-ccc4ee9e3c1b)
+
 
 
 ### 2. Cardápio
@@ -42,7 +43,8 @@ O site possui as seguintes páginas principais:
   - Todas as opções daquela categoria.
   - Detalhamento de cada item, incluindo descrição e preço.
  
-    ![cardapio](https://github.com/user-attachments/assets/1354c54d-af89-48d7-abea-c359e888d5d7)
+  ![cardapio](https://github.com/user-attachments/assets/5b70124a-5d5c-43ba-b5c0-22ca767d7aa4)
+
 
 
 ### 3. Contato
@@ -58,8 +60,9 @@ O site possui as seguintes páginas principais:
      - Função desejada
     
 
-![contato1](https://github.com/user-attachments/assets/039b418a-3211-4b0a-b1c2-488b2a7eab92)
-![contato2](https://github.com/user-attachments/assets/1e500d4c-e22d-4b6c-9555-bae7c549a0e3)
+![contato1](https://github.com/user-attachments/assets/12d0f7e0-599b-4f79-8ccb-c780d13de110)
+![contato2](https://github.com/user-attachments/assets/e2ae78eb-5eb8-4714-af6f-c9c15d8b5282)
+
 
 
 ### 4. Sobre Nós
@@ -67,8 +70,9 @@ O site possui as seguintes páginas principais:
 - Textos e imagens sobre o restaurante
 
 
-![sobrenos1](https://github.com/user-attachments/assets/fd024787-93de-410a-9191-2a31f16fd02d)
-![sobrenos2](https://github.com/user-attachments/assets/20df7486-46f9-4dbb-9475-150c271acd86)
+![sobrenos1](https://github.com/user-attachments/assets/9ddfdc85-fb77-4f2a-b248-77bbe9634108)
+![sobrenos2](https://github.com/user-attachments/assets/39337b24-b60e-4484-833a-cc5d63b80d96)
+
 
     
 ## Tecnologias Utilizadas
