@@ -28,6 +28,10 @@ O site possui as seguintes páginas principais:
 - Dois carrosséis destacando os principais lançamentos da **Master of Burgers**.
 - Um carrossel interativo que redireciona os clientes diretamente para o cardápio.
 
+- ![index1](https://github.com/user-attachments/assets/a10981b2-7853-46fb-a9d9-ab81dc802424)
+![index2](https://github.com/user-attachments/assets/55590186-d79a-4605-b205-1920c7df9d5c)
+
+
 ### 2. Cardápio
 
 - Visualização de todas as opções do restaurante, organizadas em categorias:
@@ -37,6 +41,9 @@ O site possui as seguintes páginas principais:
 - Ao clicar em uma categoria, o cliente pode ver:
   - Todas as opções daquela categoria.
   - Detalhamento de cada item, incluindo descrição e preço.
+ 
+    ![cardapio](https://github.com/user-attachments/assets/1354c54d-af89-48d7-abea-c359e888d5d7)
+
 
 ### 3. Contato
 
@@ -51,11 +58,17 @@ O site possui as seguintes páginas principais:
      - Função desejada
     
 
+![contato1](https://github.com/user-attachments/assets/039b418a-3211-4b0a-b1c2-488b2a7eab92)
+![contato2](https://github.com/user-attachments/assets/1e500d4c-e22d-4b6c-9555-bae7c549a0e3)
+
 
 ### 4. Sobre Nós
 
 - Textos e imagens sobre o restaurante
 
+
+![sobrenos1](https://github.com/user-attachments/assets/fd024787-93de-410a-9191-2a31f16fd02d)
+![sobrenos2](https://github.com/user-attachments/assets/20df7486-46f9-4dbb-9475-150c271acd86)
 
     
 ## Tecnologias Utilizadas
